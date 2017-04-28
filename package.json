@@ -1,0 +1,32 @@
+{
+  "name": "indeed-job-alert",
+  "version": "1.0.0",
+  "description": "Get custom job alerts from indeed.com",
+  "main": "index.js",
+  "dependencies": {
+    "indeed-scraper": "^2.0.2",
+    "ini": "^1.3.4",
+    "nodemailer": "^3.1.3",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rynobax/IndeedJobAlert.git"
+  },
+  "keywords": [
+    "Indeed",
+    "Job",
+    "Alert"
+  ],
+  "author": "Ryan Baxley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rynobax/IndeedJobAlert/issues"
+  },
+  "homepage": "https://github.com/rynobax/IndeedJobAlert#readme"
+}
